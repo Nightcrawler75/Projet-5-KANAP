@@ -1,4 +1,4 @@
-async function displayProduct () {
+async function displayProduct() {
     const reponse = await fetch("http://localhost:3000/api/products");
     const products = await reponse.json();
     console.log(products);
